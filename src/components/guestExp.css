@@ -1,0 +1,30 @@
+.circular-image {
+    margin-left: 70px;
+    width: 450px; /* Set the desired width */
+    height: 600px; /* Set the desired height */
+    border-radius: 50% 50% 0 0; /* Adjust the values for the desired effect */
+    overflow: hidden;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .overlay-text2 {
+    position: absolute;
+    
+    top:30%;
+    right: 0%;/* Adjust right position to cover some part of the image */
+    left:70%;
+    width:120%;
+    height:50%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .overlay-text p {
+    margin: 0;
+  }

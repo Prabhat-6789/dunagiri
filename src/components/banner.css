@@ -1,0 +1,44 @@
+/* YourComponent.css */
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; /* Semi-transparent black background */
+    color: black;
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+  }
+  
+  .overlay-text p {
+    margin: 0; /* Remove default paragraph margin */
+  }
+
+  /* YourComponent.css */
+
+.custom-button {
+    margin-top:10px;
+    margin-bottom:10px;
+    border:1px solid #00563B;
+    cursor:pointer;
+    background-color:#00563B;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:15px;
+    color:white;
+    /* Hover effect */
+    &:hover {
+      background-color: white; /* Hover background color */
+      color: #00563B; /* Hover font color */
+    }
+  }
+  
+  
